@@ -12,7 +12,7 @@ fn main() {
         .as_secs(); // What's the use of this timestamp here?
     let your_command = format!(
         "rustc-env=TEST_FOO={}",
-        timestamp + 2
+        timestamp
     );
     println!("cargo:{}", your_command);
 
